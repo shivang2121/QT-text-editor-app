@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>80</y>
+      <width>104</width>
+      <height>70</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuActions_to_font">
+    <property name="title">
+     <string>Actions to font</string>
+    </property>
+    <addaction name="actionBold"/>
+    <addaction name="actionUnBold"/>
+    <addaction name="actionSuperScript"/>
+    <addaction name="actionSubScript"/>
+    <addaction name="actionNormal_Text"/>
+   </widget>
+   <widget class="QMenu" name="menuAbout_me">
+    <property name="title">
+     <string>About me</string>
+    </property>
+    <addaction name="actionResume"/>
+   </widget>
+   <addaction name="menuActions_to_font"/>
+   <addaction name="menuAbout_me"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionBold">
+   <property name="text">
+    <string>Bold</string>
+   </property>
+  </action>
+  <action name="actionUnBold">
+   <property name="text">
+    <string>UnBold</string>
+   </property>
+  </action>
+  <action name="actionSuperScript">
+   <property name="text">
+    <string>SuperScript</string>
+   </property>
+  </action>
+  <action name="actionSubScript">
+   <property name="text">
+    <string>SubScript</string>
+   </property>
+  </action>
+  <action name="actionResume">
+   <property name="text">
+    <string>Resume</string>
+   </property>
+  </action>
+  <action name="actionNormal_Text">
+   <property name="text">
+    <string>Normal Text</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
